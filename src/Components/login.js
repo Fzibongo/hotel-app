@@ -1,10 +1,11 @@
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from '../config/firebase';
 import logo from '../Assets/40004863.jpg';
 
 function Login() {
+    const navigate = useNavigate()
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -24,6 +25,7 @@ function Login() {
                 .then(() => {
                     setError(''); // Clear any previous error message
                     alert("Log in successful");
+                    navigate('/home')
                     // Redirect to the home page or perform any other desired action.
                 })
                 .catch((error) => {
@@ -56,7 +58,7 @@ function Login() {
                     <br></br> <br></br>
                     
                     <br />
-                    <Link to="/" className='Register'>Not yet Registered? : Create an account</Link>
+                    <Link to="/signUp" className='Register'>Not yet Registered? : Create an account</Link>
                 </div>
 
                 <img src={logo} alt="" style={{ width: '345px', height: '360px', flexShrink: '0' }} />

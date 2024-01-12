@@ -50,6 +50,11 @@ const navigate = useNavigate()
   }, [])
   return (
     <div>
+        <div className="top-buttons" style={{position : "absolute", marginLeft: '1660px'}}>
+        <Link to="/aboutUs" className="nav-button">About Us</Link>
+        <Link to="/home" className="nav-button">Home</Link>
+        <Link to="/login" className="nav-button">Login</Link>
+      </div>
 
       <h1 className="welcome">Welcome To Protea Hotel Your One Stop Holiday Destination</h1>
       <img src={logo} alt="" style={{ marginTop: '-130px', width: '1930px', height: '601px' }} />
@@ -83,7 +88,7 @@ const navigate = useNavigate()
       </div>
       <div>
         <h2 className="facilities">we offer  state of the art facilities</h2>
-        <div className="border">
+        <div className="border1">
           <img src={wifi} alt="" className="wifi"/>
           <img src={massage} alt="" className="massage"/>
           <img src={pool} alt="" className="pool"/>
@@ -103,11 +108,7 @@ const navigate = useNavigate()
           <img src={twitter} alt="" className="twitter"/>
         </div>
       </div>
-      
 
-      <Link to="/aboutUs">Click to view our about page</Link>
-      <Link to="/home">Click to view our home page</Link>
-      <Link to="/login">Click to view our login page</Link>
     </div>
   );
 }

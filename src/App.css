@@ -1,10 +1,12 @@
 .main-container {
-  margin-left: 350px;
+  margin-left: 800px;
+  margin-top: 350px;
   justify-content: center;
   align-items: center;
   background-color: #8EACCB; ;
   width: 1290px;
   height: 661px;
+  
   
 }
 
@@ -213,7 +215,7 @@ margin-left: 100px;
 
 .container3 {
   background-color:#C9C9C9;
-  margin-left: 100px;
+  margin-left: 1100px;
 }
 
 .seat{
@@ -397,15 +399,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
-margin-left: 500px;
+margin-left: 650px;
 }
 
-.border {
+.border1 {
   width: 1229px;
 height: 137px;
 flex-shrink: 0;
 background: #8EACCB;
-margin-left: 300px;
+margin-left: 400px;
 }
 
 .wifi {
@@ -414,7 +416,7 @@ height: 72px;
 flex-shrink: 0;
 border-radius: 72px;
 margin-left: 70px;
-margin-top: 30px;
+margin-top: 5px;
 }
 
 .massage {
@@ -474,7 +476,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
-margin-left: 500px;
+margin-left: 650px;
 }
 
 .border2 {
@@ -494,21 +496,21 @@ margin-left: 590px;
 .whatsapp {
   width: 90px;
 height: 87.261px;
-margin-left: 70px;
+margin-left: 170px;
 }
 
 .facebook {
   width: 90px;
 height: 96.545px;
 flex-shrink: 0;
-margin-left: 70px;
+margin-left: 170px;
 }
 
 .twitter {
   width: 90px;
 height: 87.261px;
 flex-shrink: 0;
-margin-left: 70px;
+margin-left: 170px;
 }
 
 .protea {
@@ -525,15 +527,22 @@ flex-shrink: 0;
   font-weight: bold;
 }
 
+.RoomContainer {
+  margin-left: 50px;
+}
+
 .protea2 {
-  margin-left: 90px;
-  margin-left: 150px;
+  margin-left: 450px;
+}
+
+.logoProtea {
+  margin-right: 50px;
 }
 
 .RoomHeader1 {
   font-size: 64px;
   font-family:'Jacques Francois'; 
-  margin-left: 550px;
+  margin-left: 1000px;
 
 }
 
@@ -568,7 +577,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
-margin-left: 400px;
+margin-left: 800px;
 }
 
 .logoProtea {
@@ -576,8 +585,9 @@ margin-left: 400px;
 }
 
 .Summary {
-  font-size: 64px;
-  margin-left: 650px;
+  font-size: 84px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .date {
@@ -592,10 +602,240 @@ margin-left: 400px;
   font-weight: 400;
   line-height: normal;
   width: 160px;
-  height: 38px;
+  height: 28px;
   flex-shrink: 0;
-  border-radius: 15px;
+  border-radius: 5px;
   background: #FFF;
-  margin-left: 5%;
+  margin-left: 2%;
   border: none;
 }
+
+/* BookingSummary.css */
+
+.border-room-type-border {
+  height: 150px;
+}
+
+.Summary {
+  text-align: center;
+  color: #333;
+}
+
+.app-container {
+  background-image:url('../src/Assets/1516299055-presidential-cape-town1.jpg');
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+}
+
+.border {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 500px;
+  height: 150px;
+  width: 1529px;
+  height: 137px;
+  flex-shrink: 0;
+  background: #8EACCB;
+  
+}
+
+.section {
+  flex: 1;
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.section-heading {
+  margin-bottom: 5px;
+  color: #555;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.check-in {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Add this to your existing styles */
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  
+}
+
+.nav-button {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Style the buttons as needed */
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.room-type {
+  font-size: 24px;
+}
+
+/* RoomDetails.css */
+
+.bookingButton {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+
+.bookingButton:hover {
+  background-color: #E7B10A;
+}
+/*admin css*/
+
+.protea3 {
+  margin-left: 750px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+.admin-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.page-heading {
+  color: #333;
+  align-items: 'center';
+  margin-left: 5px;
+}
+
+.admin-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.section-heading {
+  color: #333;
+  font-size: 29px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+/*new admin css*/
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #f1ecf3;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color:rgb(82, 80, 77);
+  border-radius: 30px;
+}
+
+td {
+  background-color: rgb(207, 202, 195);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+button{
+  border-radius: 30px;
+}
+
+
+ BookingConfirmation.css 
+.app-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.luxurious-summary {
+  color: #6b3e26; 
+  align-self: center;
+  font-family: "Georgia", serif;
+  font-size: 64px;
+}
+
+.luxurious-confirmation-details {
+  margin-top: 20px;
+  align-self: center;
+  color: black;
+  font-size: 64px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
